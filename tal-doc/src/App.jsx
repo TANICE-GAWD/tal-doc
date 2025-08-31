@@ -45,7 +45,7 @@ function App() {
     <div className="app-container">
       <header className="header">
         <div className="header-content">
-          <h1>AERO-LEAGUE CHALLENGES</h1>
+          <h1>THAPAR DRONE CHALLENGE CHALLENGES</h1>
           <p>OFFICIAL BRIEFING</p>
         </div>
       </header>
@@ -79,10 +79,13 @@ function App() {
       <main className="main-content">
         <section id="intro" className="section">
           <p>
-            Welcome, pilots, to the Aero-League Challenge Series. This document contains the official rules, objectives, and scoring criteria for all competitive events. Each challenge is designed to test a unique combination of piloting skill, strategic thinking, and engineering prowess. Study this briefing carefully to gain a competitive edge. All participants are expected to adhere to these guidelines and the general Code of Conduct.
+            Welcome, students, to the THAPAR DRONE CHALLENGE Challenge Series. This document contains the official rules, objectives, and scoring criteria for all competitive events. Each challenge is designed to test a unique combination of studenting skill, strategic thinking, and engineering prowess. Study this briefing carefully to gain a competitive edge. All participants are expected to adhere to these guidelines and the general Code of Conduct.
           </p>
           <p>
-            Good luck, and may the best pilot win.
+            Good luck, and may the best student win.
+          </p>
+          <p style={{ marginTop: '1rem', fontStyle: 'italic' }}>
+            Please note: Accommodation at discounted rates will be provided only for participants coming from other colleges.
           </p>
         </section>
         
@@ -93,12 +96,22 @@ function App() {
           <div className="specs-grid">
             <div className="spec-card">
               <h4>Safety First</h4>
-              <p>All pilots must attend the mandatory pre-flight safety briefing. Any reckless flying that endangers participants, spectators, or equipment will result in immediate disqualification.</p>
+              <p>All students must attend the mandatory pre-flight safety briefing. Any reckless flying that endangers participants, spectators, or equipment will result in immediate disqualification. The organizers are not responsible for any damages to drones or personal property during the event.</p>
+            </div>
+
+            <div className="spec-card">
+              <h4>Participant Eligibility</h4>
+              <p>All students must be current students. Please be prepared to present a valid student ID.</p>
             </div>
             
             <div className="spec-card">
               <h4>Drone Class</h4>
-              <p>All drones must be classified as FPV (First-Person View) racing drones.</p>
+              <p>All drones must be classified as FPV (First-Person View) racing drones and must be equipped with a functional video camera.</p>
+            </div>
+
+            <div className="spec-card">
+              <h4>Build Requirements</h4>
+              <p>Only handmade drones built by students are permitted. No ready-made or off-the-shelf commercial drones will be allowed to compete.</p>
             </div>
           </div>
           
@@ -121,7 +134,12 @@ function App() {
             
             <div className="spec-card">
               <h4>Video Transmission (VTX)</h4>
-              <p>All VTX must be set to the assigned frequency and a maximum output of 25mW to prevent signal interference. Pilots must be able to change their VTX channel upon request by a race marshal.</p>
+              <p>All VTX must be set to the assigned frequency and a maximum output of 25mW to prevent signal interference. students must be able to change their VTX channel upon request by a race marshal.</p>
+            </div>
+
+            <div className="spec-card">
+              <h4>Spectator Feed</h4>
+              <p>We will provide a screen for spectators. Your drone system must be capable of providing a video feed via an HDMI connection.</p>
             </div>
             
             <div className="spec-card">
@@ -130,8 +148,8 @@ function App() {
             </div>
             
             <div className="spec-card">
-              <h4>Modifications</h4>
-              <p>Custom builds and modifications are highly encouraged, provided they adhere to the class specifications listed above.</p>
+              <h4>Video Submission</h4>
+              <p>For any video submissions, please include the full specifications of your drone in the video description.</p>
             </div>
           </div>
         </section>
@@ -150,13 +168,13 @@ function App() {
             
             <h4>Rules of Engagement</h4>
             <ul>
-              <li>Pilots must pass through the center of each gate. The gate's light will change from blue to green to confirm a successful pass.</li>
-              <li>Missing a gate requires the pilot to circle back and re-attempt it before proceeding.</li>
+              <li>students must pass through the center of each gate. The gate's light will change from blue to green to confirm a successful pass.</li>
+              <li>Missing a gate requires the student to circle back and re-attempt it before proceeding.</li>
               <li>Contact with any obstacle or the ground will add a 3-second penalty to the final time for each incident.</li>
             </ul>
             
             <h4>Scoring System</h4>
-            <p>The final score is the total time taken to complete the course, including any penalties. The pilot with the lowest time wins. Each pilot gets two attempts, with the best time being recorded.</p>
+            <p>The final score is the total time taken to complete the course, including any penalties. The student with the lowest time wins. Each student gets two attempts, with the best time being recorded.</p>
             
             <div className="tips-list">
               <h4>Tips for Success</h4>
@@ -175,9 +193,9 @@ function App() {
             
             <h4>Rules of Engagement</h4>
             <ul>
-              <li>Pilots must take off and hover at a designated altitude of 15 meters.</li>
-              <li>On the "descend" command, the pilot must land on one of the three targets. The drone must remain on the pad for 3 seconds to register a successful landing.</li>
-              <li>Pilots have three attempts to score the maximum number of points.</li>
+              <li>students must take off and hover at a designated altitude of 15 meters.</li>
+              <li>On the "descend" command, the student must land on one of the three targets. The drone must remain on the pad for 3 seconds to register a successful landing.</li>
+              <li>students have three attempts to score the maximum number of points.</li>
             </ul>
             
             <h4>Scoring System</h4>
@@ -219,20 +237,20 @@ function App() {
             <h3>CHALLENGE 3: SPEED CIRCUIT</h3>
             
             <h4>Objective</h4>
-            <p>Complete three laps of a high-speed racing circuit faster than any other pilot in your heat.</p>
+            <p>Complete three laps of a high-speed racing circuit faster than any other student in your heat.</p>
             
             <h4>Course Layout</h4>
             <p>A traditional FPV racing track marked with flags and large air gates. The circuit is designed for speed, with wide turns and long straightaways.</p>
             
             <h4>Rules of Engagement</h4>
             <ul>
-              <li>This is a head-to-head race with up to four pilots per heat.</li>
-              <li>Pilots must stay within the marked course boundaries.</li>
-              <li>The race begins with a multi-drone launch from starting pads. A false start will move the pilot to the back row on the restart.</li>
+              <li>This is a head-to-head race with up to four students per heat.</li>
+              <li>students must stay within the marked course boundaries.</li>
+              <li>The race begins with a multi-drone launch from starting pads. A false start will move the student to the back row on the restart.</li>
             </ul>
             
             <h4>Scoring System</h4>
-            <p>The first pilot to complete three laps wins the heat and advances to the next round in a tournament-style bracket.</p>
+            <p>The first student to complete three laps wins the heat and advances to the next round in a tournament-style bracket.</p>
             
             <div className="tips-list">
               <h4>Tips for Success</h4>
@@ -244,14 +262,14 @@ function App() {
             <h3>CHALLENGE 4: FREESTYLE BATTLE</h3>
             
             <h4>Objective</h4>
-            <p>Showcase technical skill, creativity, and piloting artistry in a 90-second, open-format performance.</p>
+            <p>Showcase technical skill, creativity, and studenting artistry in a 90-second, open-format performance.</p>
             
             <h4>Arena Layout</h4>
             <p>An open arena filled with a variety of structures, including abandoned buildings, concrete pillars, and metal scaffolding, providing a "bando" style environment.</p>
             
             <h4>Rules of Engagement</h4>
             <ul>
-              <li>Each pilot has 90 seconds to perform a freestyle routine.</li>
+              <li>Each student has 90 seconds to perform a freestyle routine.</li>
               <li>The routine must be continuous (no landing and re-launching).</li>
               <li>Use of the environment is highly encouraged (e.g., power loops through windows, wall rides, gap dives).</li>
             </ul>
@@ -276,7 +294,7 @@ function App() {
                 </tr>
                 <tr>
                   <td>Use of Environment</td>
-                  <td>How well the pilot integrated the obstacles into their flight path</td>
+                  <td>How well the student integrated the obstacles into their flight path</td>
                 </tr>
               </tbody>
             </table>
@@ -292,8 +310,8 @@ function App() {
       
       <footer className="footer">
         <div className="footer-content">
-          <p>© {new Date().getFullYear()} Aero-League. All rights reserved.</p>
-          <p>Official documentation for the Aero-League Challenge Series.</p>
+          <p>© {new Date().getFullYear()} Thapar Drone Challenge. All rights reserved.</p>
+          <p>Official documentation for the Thapar Drone Challenge Challenge Series.</p>
         </div>
       </footer>
     </div>
