@@ -158,153 +158,45 @@ function App() {
           <h2>CHALLENGES</h2>
           
           <div className="challenge-card">
-            <h3>CHALLENGE 1: OBSTACLE SPRINT</h3>
-            
+            <h3>CHALLENGE 1: LOW-LEVEL FLIGHT</h3>
             <h4>Objective</h4>
-            <p>Navigate a complex, three-dimensional course in the fastest time possible while successfully passing through a series of gates.</p>
-            
-            <h4>Course Layout</h4>
-            <p>The course consists of 10 illuminated gates, including slaloms, tunnels, and vertical dives. The official flight path will be revealed 24 hours before the event.</p>
-            
-            <h4>Rules of Engagement</h4>
-            <ul>
-              <li>students must pass through the center of each gate. The gate's light will change from blue to green to confirm a successful pass.</li>
-              <li>Missing a gate requires the student to circle back and re-attempt it before proceeding.</li>
-              <li>Contact with any obstacle or the ground will add a 3-second penalty to the final time for each incident.</li>
-            </ul>
-            
-            <h4>Scoring System</h4>
-            <p>The final score is the total time taken to complete the course, including any penalties. The student with the lowest time wins. Each student gets two attempts, with the best time being recorded.</p>
-            
-            <div className="tips-list">
-              <h4>Tips for Success</h4>
-              <p>Balance is key. Pushing for maximum speed can lead to costly penalties. A smooth, controlled flight is often faster than a reckless one. Memorize the course layout during the pre-flight inspection.</p>
-            </div>
+            <p>Showcase your piloting skills by performing acrobatic loops and navigating obstacles, all while maintaining a challenging low altitude.</p>
+            <h4>Scenario</h4>
+            <p>This challenge unfolds across a specially designed course on one of Thapar's main grounds. Pilots will need to fly their drone no higher than 2 meters (approx. 6.5 feet) from the ground. The course will require you to execute a perfect 360-degree aileron roll through one gate, followed by a tight power loop over a designated obstacle. You'll then navigate a slalom of flags before flying under a low-hanging banner, testing your ability to manage prop wash and maintain stability close to the ground.</p>
           </div>
           
           <div className="challenge-card">
-            <h3>CHALLENGE 2: PRECISION LANDING</h3>
-            
+            <h3>CHALLENGE 2: EVENING RECON</h3>
             <h4>Objective</h4>
-            <p>Execute a controlled landing on a series of progressively smaller, designated targets from a set altitude.</p>
-            
-            <h4>Arena Layout</h4>
-            <p>The arena contains three circular landing pads with diameters of 50cm, 25cm, and 10cm. Each pad is also an electronic pressure sensor.</p>
-            
-            <h4>Rules of Engagement</h4>
-            <ul>
-              <li>students must take off and hover at a designated altitude of 15 meters.</li>
-              <li>On the "descend" command, the student must land on one of the three targets. The drone must remain on the pad for 3 seconds to register a successful landing.</li>
-              <li>students have three attempts to score the maximum number of points.</li>
-            </ul>
-            
-            <h4>Scoring System</h4>
-            <table className="scoring-table">
-              <thead>
-                <tr>
-                  <th>Target</th>
-                  <th>Points</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>10cm Pad</td>
-                  <td>100 Points</td>
-                </tr>
-                <tr>
-                  <td>25cm Pad</td>
-                  <td>50 Points</td>
-                </tr>
-                <tr>
-                  <td>50cm Pad</td>
-                  <td>25 Points</td>
-                </tr>
-                <tr>
-                  <td>Outside Target</td>
-                  <td>0 Points</td>
-                </tr>
-              </tbody>
-            </table>
-            <p>A landing where any part of the drone is outside the target circle scores 0 points. The highest score from the three attempts is recorded.</p>
-            
-            <div className="tips-list">
-              <h4>Tips for Success</h4>
-              <p>This challenge is about throttle control and managing prop wash, especially near the ground. Use slow, deliberate movements. A drone with a lower center of gravity may be more stable during the final descent.</p>
-            </div>
+            <p>Scan the twilight landscape for signal flashes and use an announcement system to report your findings accurately and swiftly.</p>
+            <h4>Scenario</h4>
+            <p>As dusk settles over Patiala, this mission begins. Your drone must be equipped with a small, lightweight speaker. Across a dimly lit field, several LED beacons will flash in a specific sequence (e.g., Red-Blue-Red). Your task is to patrol the area, correctly identify the sequence from the air, and fly to a designated "command" zone. Once there, you must broadcast the correct color sequence audibly using your drone's announcement system. Time is critical, as is the accuracy of your report.</p>
           </div>
           
           <div className="challenge-card">
-            <h3>CHALLENGE 3: SPEED CIRCUIT</h3>
-            
+            <h3>CHALLENGE 3: TURBULENT DELIVERY</h3>
             <h4>Objective</h4>
-            <p>Complete three laps of a high-speed racing circuit faster than any other student in your heat.</p>
-            
-            <h4>Course Layout</h4>
-            <p>A traditional FPV racing track marked with flags and large air gates. The circuit is designed for speed, with wide turns and long straightaways.</p>
-            
-            <h4>Rules of Engagement</h4>
-            <ul>
-              <li>This is a head-to-head race with up to four students per heat.</li>
-              <li>students must stay within the marked course boundaries.</li>
-              <li>The race begins with a multi-drone launch from starting pads. A false start will move the student to the back row on the restart.</li>
-            </ul>
-            
-            <h4>Scoring System</h4>
-            <p>The first student to complete three laps wins the heat and advances to the next round in a tournament-style bracket.</p>
-            
-            <div className="tips-list">
-              <h4>Tips for Success</h4>
-              <p>Mastering the racing line is critical. Find the most efficient path through the turns (the "apex") to maintain momentum. A lightweight build with a high power-to-weight ratio will excel here.</p>
-            </div>
+            <p>Navigate through heavy air turbulence and evade enemy threats to deliver your critical 250 gm payload to a precise landing zone.</p>
+            <h4>Scenario</h4>
+            <p>A humanitarian mission under duress. Your drone will carry a 250g mock medical package. The flight path leads through a "wind corridor" created by large industrial fans, simulating severe turbulence. Along this path, red-lit "no-fly zones" representing enemy threats must be avoided. After clearing the turbulent corridor, you must carefully approach the landing zone—a 50cm-wide platform—and release the payload without it tipping over or falling off the target. The delivery must be gentle and precise.</p>
           </div>
           
           <div className="challenge-card">
-            <h3>CHALLENGE 4: FREESTYLE BATTLE</h3>
-            
+            <h3>CHALLENGE 4: THE GAUNTLET</h3>
             <h4>Objective</h4>
-            <p>Showcase technical skill, creativity, and studenting artistry in a 90-second, open-format performance.</p>
-            
-            <h4>Arena Layout</h4>
-            <p>An open arena filled with a variety of structures, including abandoned buildings, concrete pillars, and metal scaffolding, providing a "bando" style environment.</p>
-            
-            <h4>Rules of Engagement</h4>
-            <ul>
-              <li>Each student has 90 seconds to perform a freestyle routine.</li>
-              <li>The routine must be continuous (no landing and re-launching).</li>
-              <li>Use of the environment is highly encouraged (e.g., power loops through windows, wall rides, gap dives).</li>
-            </ul>
-            
-            <h4>Scoring System</h4>
-            <p>A panel of three judges will score the routine based on the following criteria (1-10 points each):</p>
-            <table className="scoring-table">
-              <thead>
-                <tr>
-                  <th>Criteria</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Technical Difficulty</td>
-                  <td>Complexity of the maneuvers (e.g., trippy spins, Mattyflips, inverted yaw spins)</td>
-                </tr>
-                <tr>
-                  <td>Creativity & Style</td>
-                  <td>Originality and flow of the routine</td>
-                </tr>
-                <tr>
-                  <td>Use of Environment</td>
-                  <td>How well the student integrated the obstacles into their flight path</td>
-                </tr>
-              </tbody>
-            </table>
-            <p>The final score is the average of the three judges' scores.</p>
-            
-            <div className="tips-list">
-              <h4>Tips for Success</h4>
-              <p>Plan a routine in advance, but be prepared to improvise. A great freestyle run tells a story and has a natural rhythm.</p>
-            </div>
+            <p>Rely solely on your instruments to navigate a treacherous, smoke-filled tunnel. Avoid submerged obstacles and the tunnel walls in zero-visibility conditions.</p>
+            <h4>Scenario</h4>
+            <p>This is the ultimate test of instrument-only piloting. You will fly into a long, enclosed tunnel filled with dense, non-toxic smoke, reducing visibility to nearly zero. Your FPV feed will be your only guide. The tunnel floor will have sections covered in water with hidden obstacles just below the surface that you must fly over. Your only cues to avoid the walls, ceiling, and submerged hazards will be your on-screen display (OSD) data, such as altitude and artificial horizon. Touching any surface will result in immediate disqualification from the attempt.</p>
           </div>
+
+          <div className="challenge-card">
+            <h3>BONUS RACE: STRATEGIC DASH</h3>
+            <h4>Objective</h4>
+            <p>This isn't just about speed, it's about strategy. Decide on the fly which checkpoints to hit and which to skip, but be warned: every missed checkpoint comes at a cost.</p>
+            <h4>Scenario</h4>
+            <p>A high-speed race across a wide-open area of the campus. The course will feature 10 gates, but only 7 are mandatory. Three of the gates are designated as optional "risk" gates, placed in more challenging locations. Successfully navigating a risk gate grants you a significant time bonus. However, missing a mandatory gate or crashing while attempting a risk gate will add a heavy time penalty. The pilot who completes the course with the best final time—factoring in all bonuses and penalties—wins.</p>
+          </div>
+
         </section>
       </main>
       
